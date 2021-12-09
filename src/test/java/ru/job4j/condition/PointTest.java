@@ -7,7 +7,7 @@ public class PointTest {
 
     @Test
     public void when10to15then5() {
-        double expected = 5f;
+        double expected = 5;
         int x1 = 1;
         int y1 = 0;
         int x2 = 1;
@@ -18,7 +18,7 @@ public class PointTest {
 
     @Test
     public void when30to00then3() {
-        double expected = 3f;
+        double expected = 3;
         int x1 = 3;
         int y1 = 0;
         int x2 = 0;
@@ -29,7 +29,7 @@ public class PointTest {
 
     @Test
     public void when22to90then7and28() {
-        double expected = 7.28f;
+        double expected = 7.28;
         int x1 = 2;
         int y1 = 2;
         int x2 = 9;
@@ -40,7 +40,7 @@ public class PointTest {
 
     @Test
     public void whenMin2Min2to22then5and66() {
-        double expected = 5.66f;
+        double expected = 5.66;
         int x1 = -2;
         int y1 = -2;
         int x2 = 2;
