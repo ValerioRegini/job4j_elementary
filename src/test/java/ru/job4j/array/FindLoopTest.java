@@ -32,11 +32,20 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whyDoesntWork() {
+    public void whenArrayHas2Then3() {
         int[] data = {6, 4, 3, 2};
         int el = 2;
         int result = FindLoop.indexOf(data, el);
         int expected = 3;
+        Assert.assertEquals(expected, result);
+    }
+
+    @Test
+    public void whenArrayNot8ThenMin1() {
+        int[] data = {6, 4, 3, 2};
+        int el = 8;
+        int result = FindLoop.indexOf(data, el);
+        int expected = -1;
         Assert.assertEquals(expected, result);
     }
 }
