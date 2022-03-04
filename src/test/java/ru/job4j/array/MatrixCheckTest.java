@@ -17,10 +17,10 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenNotHasMonoHorizontal() {
+    public void whenHasNotMonoHorizontal() {
         char[][] input = {
                 {' ', ' ', ' '},
-                {'X', 'X', 'X'},
+                {'X', ' ', 'X'},
                 {' ', ' ', ' '},
         };
         int row = 2;
