@@ -41,10 +41,10 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenNotHasMonoVertical() {
+    public void whenHasNotMonoVertical() {
         char[][] input = {
                 {' ', ' ', 'X'},
-                {' ', ' ', 'X'},
+                {' ', ' ', ' '},
                 {' ', ' ', 'X'},
         };
         int column = 0;
